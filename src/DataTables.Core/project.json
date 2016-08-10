@@ -1,0 +1,32 @@
+﻿{
+    "id": "DataTables.Core",
+    "title": "DataTables.Core",
+    "version": "1.0.0-alpha1",
+    "description": "Core elements for DataTables in AspNet.",
+    "authors": [ "Extra", "Anderson Matos" ],
+
+    "packOptions": {
+        "summary": "Core elements for DataTables in AspNet.",
+        "tags": [ "DataTables", "DataTables.Core", "DataTables.Mvc", "DataTables.AspNet" ],
+        "owners": [ "Extra", "Anderson Matos" ],
+        "releaseNotes": "Alpha.",
+        "iconUrl": "",
+        "projectUrl": "https://github.com/PMExtra/DataTables.Core",
+        "licenseUrl": "",
+        "requireLicenseAcceptance": false,
+        "repository": {
+            "type": "git",
+            "url": "https://github.com/PMExtra/DataTables.Core"
+        }
+    },
+
+    "frameworks": {
+        "net45": {},
+        "netstandard1.6": {
+            "imports": "dnxcore50",
+            "dependencies": {
+                "NETStandard.Library": "1.6.0"
+            }
+        }
+    }
+}
